@@ -1,9 +1,12 @@
 $(function() {
-    $('.travel__slider').slick({
-        slidesToShow: 3,
-        centerMode: true,
-        variableWidth: true,
-        arrows: false,
-        autoplay: true
-    });
+   $('.travel__slider').owlCarousel({
+       loop: true,
+       items: 3,
+       autoWidth: true,
+       margin: 30,
+       center: true,
+       dots: false,
+       autoplay: true,
+       autoplayTimeout: 4000
+   });
 });
