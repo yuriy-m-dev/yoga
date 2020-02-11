@@ -19,5 +19,12 @@ $(function() {
     dots: false,
     autoplay: true,
     autoplayTimeout: 4000
-});
+    });
+
+    $('.reviews__slider').owlCarousel({
+        items: 1,
+        nav: true,
+        navContainer: '.reviews__slider',
+        loop: true
+    });
 });
